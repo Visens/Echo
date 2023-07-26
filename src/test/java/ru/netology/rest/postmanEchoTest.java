@@ -11,7 +11,7 @@ public class postmanEchoTest {
 	void shouldReturnEchoTest() {
 		given()
 				.baseUri("https://postman-echo.com")
-				.body("Say Hello!")
+				.body("Wellcome to AppVeyor")
 				.when()
 				.post("/post")
 				.then()
